@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Loader Styling */
+  .loading {
+    text-align: center;
+    font-size: 1.5em;
+    color: #007bff;
+    margin: 50px 0;
+  }
+  
+  /* Back Button Styling */
+  button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.2s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* User Details Styling */
+  .user-details {
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .user-details img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .user-details div {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .user-details .email {
+    color: #666;
+    font-size: 1em;
+  }
+  

@@ -1,0 +1,10 @@
+<div class="container">
+  <div *ngIf="isLoading" class="loading">Loading...</div>
+  <div *ngIf="!isLoading" class="user-details">
+    <img [src]="user.avatar" alt="{{user.first_name}}">
+    <div>{{user.first_name}} {{user.last_name}}</div>
+    <div class="email">Email: {{user.email}}</div>
+    <button (click)="onBack()">Back</button>
+  </div>
+  
+</div>
